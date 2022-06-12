@@ -11,7 +11,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     const basicNft = await deploy("BasicNFT", {
         from: deployer,
         args: args,
-        logs: true,
+        log: true,
         waitConfirmations: network.config.blockConfirmations || 1,
     })
 
