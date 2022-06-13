@@ -49,9 +49,9 @@ module.exports = {
             default: 1,
         },
     },
-    mocha: {
-        timeout: 200000, // 200 seconds max
-    },
+    // mocha: {
+    //     timeout: 200000, // 200 seconds max
+    // },
     etherscan: {
         apiKey: {
             rinkeby: process.env.ETHERSCAN_API_KEY,
