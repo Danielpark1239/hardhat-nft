@@ -39,7 +39,7 @@ module.exports = {
         // token: "MATIC", //ex. deploy to Polygon
     },
     solidity: {
-        compilers: [{ version: "0.8.7" }],
+        compilers: [{ version: "0.6.6" }, { version: "0.8.7" }],
     },
     namedAccounts: {
         deployer: {
