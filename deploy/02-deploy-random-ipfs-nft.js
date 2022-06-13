@@ -97,4 +97,4 @@ async function handleTokenURIs() {
     return tokenURIs
 }
 
-module.exports.tags = ["all", "random", "main"]
+module.exports.tags = ["all", "randomIpfsNft", "main"]
