@@ -1,5 +1,5 @@
 const { network, ethers } = require("hardhat")
-const { developmentChains } = require("../helper-hardhat.config.js")
+const { developmentChains, networkConfig } = require("../helper-hardhat.config.js")
 const { verify } = require("../utils/verify")
 const fs = require("fs")
 
